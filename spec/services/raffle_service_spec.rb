@@ -3,7 +3,6 @@ require 'rails_helper'
 describe RaffleService do
 
   before :each do
-    byebug
     @campaign = create(:campaign, status: :pending)
   end
 
