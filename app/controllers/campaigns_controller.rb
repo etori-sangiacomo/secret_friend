@@ -1,4 +1,5 @@
 class CampaignsController < ApplicationController
+  byebug
   before_action :authenticate_user!
 
   before_action :set_campaign, only: [:show, :destroy, :update, :raffle]
